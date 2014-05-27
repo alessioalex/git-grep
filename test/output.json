@@ -1,0 +1,17 @@
+[{
+    "file": "activerecord/lib/active_record/core.rb",
+    "line": "76",
+    "text": "mattr_accessor :timestamped_migrations, instance_writer: false"
+}, {
+    "file": "activerecord/lib/active_record/core.rb",
+    "line": "77",
+    "text": "self.timestamped_migrations = true"
+}, {
+    "file": "activerecord/lib/active_record/migration.rb",
+    "line": "308",
+    "text": "#    config.active_record.timestamped_migrations = false"
+}, {
+    "file": "activerecord/lib/active_record/migration.rb",
+    "line": "711",
+    "text": "if ActiveRecord::Base.timestamped_migrations"
+}]

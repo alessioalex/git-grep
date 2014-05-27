@@ -1,0 +1,36 @@
+{
+  "name": "git-grep",
+  "version": "0.1.0",
+  "description": "Easily search a git repo in a Node streamy way (by shelling out to git-grep(1)).",
+  "main": "index.js",
+  "dependencies": {
+    "git-spawned-stream": "~0.1.0",
+    "split-transform-stream": "~0.1.1"
+  },
+  "devDependencies": {
+    "proxyquire": "~1.0.0",
+    "should": "~3.3.2",
+    "mocha": "~1.19.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alessioalex/git-grep"
+  },
+  "keywords": [
+    "git",
+    "grep",
+    "search",
+    "git-search",
+    "stream",
+    "git-grep"
+  ],
+  "author": "Alexandru Vladutu <alexandru.vladutu@gmail.com> (http://careers.stackoverflow.com/alessioalex)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alessioalex/git-grep/issues"
+  },
+  "homepage": "https://github.com/alessioalex/git-grep"
+}
